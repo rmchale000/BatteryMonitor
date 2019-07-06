@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Battery Monitor</string>
+    <string name="start_report">Start Report</string>
+    <string name="end_report">End Report</string>
+    <string name="view_report">View</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="horizontal_axis">Time</string>
+    <string name="vertical_axis">Battery Pct</string>
+    <string name="REPORT_NAME">com.garian.batterymonitor.REPORT_NAME</string>
+    <string name="app_col_header">App</string>
+    <string name="cpu_col_header">CPU</string>
+    <string name="memory_col_header">Memory</string>
+    <string name="report_interval">Report Interval</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="395dp"
+            android:layout_height="715dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:id="@+id/reporttable">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/reporttableheader">
+            <TextView
+                    android:text="@string/app_col_header"
+                    android:padding="3dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/appheader"/>
+            <TextView
+                    android:text="@string/cpu_col_header"
+                    android:padding="3dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/cpucol"/>
+            <TextView
+                    android:text="@string/memory_col_header"
+                    android:padding="3dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/memorycol"/>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
